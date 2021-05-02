@@ -9,7 +9,7 @@ var cognomi = ["Bianchi", "Neri", "Rossi", "Gialli", "Verdi", "Blu", "Arancioni"
 var cognomeUtente;
 
 cognomeUtente = cognomi.push(prompt("scrivi qui il tuo cognome, con la prima lettera in maiuscolo"));
-console.log( cognomeUtente.length + 1);
+// console.log( cognomeUtente.length + 1);
 
 cognomi.sort();
 console.log(cognomi);
